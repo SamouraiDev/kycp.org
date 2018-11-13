@@ -1,2 +1,2 @@
-# deniabl.com
-Bitcoin privacy explorer (online website)
+# KYCP - Know Your Coin Privacy
+www.kycp.org
