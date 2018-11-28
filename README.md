@@ -1,2 +1,3 @@
-# KYCP - Know Your Coin Privacy
+# Know Your Coin Privacy
+Bitcoin privacy explorer.
 www.kycp.org
