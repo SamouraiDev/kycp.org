@@ -363,8 +363,15 @@ class CacheWorker {
     console.log('CacheWorker: instanciating')
   }
 
-  ping() {
-    return 'pong'
+  async ping() {
+    this.put('system', 'ping', 'pong')
+    try {
+      const pong = await this.get('system', 'ping')
+      return pong
+    } catch (e) {
+      console.error('ping error', e)
+      return e.message
+    }
   }
 
   _getCache(name) {
